@@ -121,12 +121,13 @@
             // 
             // mostrar_btn
             // 
+            this.mostrar_btn.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.mostrar_btn.Location = new System.Drawing.Point(175, 539);
             this.mostrar_btn.Name = "mostrar_btn";
             this.mostrar_btn.Size = new System.Drawing.Size(94, 33);
             this.mostrar_btn.TabIndex = 9;
             this.mostrar_btn.Text = "Mostrar";
-            this.mostrar_btn.UseVisualStyleBackColor = true;
+            this.mostrar_btn.UseVisualStyleBackColor = false;
             // 
             // actualizar_btn
             // 
