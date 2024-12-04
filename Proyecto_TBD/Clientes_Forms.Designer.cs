@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.clave_cliente_lbl = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.nombre_cliente_txt = new System.Windows.Forms.TextBox();
@@ -55,14 +55,14 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Nombre:";
             // 
-            // label2
+            // clave_cliente_lbl
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(27, 264);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 20);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Clave cliente";
+            this.clave_cliente_lbl.AutoSize = true;
+            this.clave_cliente_lbl.Location = new System.Drawing.Point(27, 264);
+            this.clave_cliente_lbl.Name = "clave_cliente_lbl";
+            this.clave_cliente_lbl.Size = new System.Drawing.Size(98, 20);
+            this.clave_cliente_lbl.TabIndex = 1;
+            this.clave_cliente_lbl.Text = "Clave cliente";
             // 
             // label3
             // 
@@ -201,7 +201,7 @@
             this.Controls.Add(this.nombre_cliente_txt);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.clave_cliente_lbl);
             this.Controls.Add(this.label1);
             this.Name = "Clientes_Forms";
             this.Text = "Clientes_Forms";
@@ -214,7 +214,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label clave_cliente_lbl;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox nombre_cliente_txt;
