@@ -16,5 +16,11 @@ namespace Proyecto_TBD
         {
             InitializeComponent();
         }
+
+        private void Clientes_Forms_Load(object sender, EventArgs e)
+        {
+            conexionSQL conexion = new conexionSQL();
+            conexion.abrir();
+        }
     }
 }
