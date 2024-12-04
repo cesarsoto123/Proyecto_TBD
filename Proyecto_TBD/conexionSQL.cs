@@ -13,6 +13,11 @@ namespace Proyecto_TBD
         string cadenaConexion = "Data source=MTA_LAPTOP;Initial Catalog=proyecto_tbd; Integrated Security=True";
         public SqlConnection conexionBD = new SqlConnection();
 
+        public string cadena()
+        {
+            return cadenaConexion;
+        }
+
         public conexionSQL()
         {
             conexionBD.ConnectionString = cadenaConexion;
@@ -28,13 +33,17 @@ namespace Proyecto_TBD
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error en la conexión");
+                MessageBox.Show("Error en la conexión:\n" + ex);
             }
-        }
+        }//fin abrir
 
         public void cerrar()
         {
             conexionBD.Close();
-        }
-    }
-}
+        }//fi n cerrar
+
+
+
+
+    }//fin class
+}//fin namespace
