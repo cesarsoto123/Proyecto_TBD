@@ -111,5 +111,10 @@ namespace Proyecto_TBD
             conexion.cerrar();
             this.Close();
         }
+
+        private void clave_cliente_lbl_Click(object sender, EventArgs e)
+        {
+
+        }
     }//fin class
 }//fin namespace
